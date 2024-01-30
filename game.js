@@ -102,6 +102,7 @@ let onGhostCollision = () => {
     lives--;
     restartPacmanAndGhosts();
     if (lives == 0) {
+        location.reload () // após a terceira derrota, reiniciar o jogo
     }
 };
 
